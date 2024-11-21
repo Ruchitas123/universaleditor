@@ -1,0 +1,39 @@
+{
+    "definitions": [
+      {
+        "title": "Custom Card",
+        "id": "square",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/fd/components/form/radiobutton/v1/radiobutton",
+              "template": {
+                "jcr:title": "Custom Radio Button",
+                "fieldType": "radiobutton",
+                "fd:viewType": "square",
+                "enabled": true,
+                "visible": true
+              }
+            }
+          }
+        }
+      }
+    ],
+    "models": [
+      {
+        "id": "square",
+        "fields": [
+          {
+            "component": "container",
+            "name": "basic",
+            "label": "Basic",
+            "collapsible": false,
+            "...": "../../../../models/form-common/_basic-input-fields.json"
+          },
+          {
+            "...": "../../../../models/form-common/_help-container.json"
+          }
+        ]
+      }
+    ]
+  }
