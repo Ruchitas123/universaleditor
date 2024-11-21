@@ -1,0 +1,37 @@
+/* Hide the native radio button */
+.field-radiobutton1732184673416 input[type="radio"] {
+    display: none;
+    gap: 10px; /* Space between each button */
+  }
+  
+  /* Create a custom square */
+  .field-radiobutton1732184673416 label {
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 4px; /* Remove if you don't want rounded corners */
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #eb0909;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* Highlight the selected option */
+  .field-radiobutton1732184673416 input[type="radio"]:checked + label {
+    background-color: #007bff;
+    border-color: #0056b3;
+    color: white;
+  }
+  
+  /* Add hover effect */
+  .field-radiobutton1732184673416 label:hover {
+    background-color: #e0e0e0;
+    border-color: #aaa;
+  }
+
+  
