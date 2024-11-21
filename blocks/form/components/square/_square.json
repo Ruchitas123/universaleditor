@@ -1,7 +1,7 @@
 {
     "definitions": [
       {
-        "title": "Custom Radio     Group",
+        "title": "Custom Radio Group",
         "id": "square",
         "plugins": {
           "xwalk": {

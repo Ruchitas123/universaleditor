@@ -269,6 +269,24 @@
           }
         },
         {
+          "title": "Custom Radio Group",
+          "id": "square",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/radiobutton/v1/radiobutton",
+                "template": {
+                  "jcr:title": "Custom Radio Button",
+                  "fieldType": "radio-group",
+                  "fd:viewType": "square",
+                  "enabled": true,
+                  "visible": true
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Date Picker",
           "id": "date-input",
           "plugins": {
